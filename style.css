@@ -136,6 +136,8 @@ strong{
     padding: 0 2rem;  
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-color:#7f998eea;
+    margin: 2rem 2rem;
 }
 
 .mission-text{
@@ -181,7 +183,7 @@ nav{
     letter-spacing: 0.5rem;
     text-transform: uppercase;
     background-size: cover;
-    background-color: #444444;
+    background-color:#7f998e;
 }
 
 .nav-start{
@@ -476,8 +478,7 @@ footer{
     min-height: 20vh;
     flex-wrap: wrap;
     align-items: center;
-    background-color:#444444bd;
-    border: 1px dashed green;
+    background-color:#7f998e;
     padding-top: 3rem;
     padding: 0 2rem;
 }
