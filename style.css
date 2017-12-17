@@ -26,7 +26,7 @@ body {
 } */
 
 main {
-    background: #ccdbde url('logos/sam-background.jpg') no-repeat center center;
+    background: #ccdbde url('logos/background_sam.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 
@@ -58,7 +58,7 @@ strong{
     min-height: auto;
     min-width: auto;
     padding: 0 2rem;
-    background-color: #444444;
+    background-color:#444444bd;
 }
 .container-logo{
     align-self: flex-start;
@@ -93,15 +93,7 @@ strong{
     /* text-shadow: 0.6rem 0.1rem rgb(0, 169, 157); */
    
 }
-/* .container-trademark{
-    align-self: center;
-}
 
-.trademark{
-    color: white;
-    text-shadow: 0.3rem 0.1rem #444444;
-    
-} */
 
 .main-mission-parent{
     display: flex;
@@ -115,8 +107,8 @@ strong{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 2px 10px #000;
-    background-color: #ccdb;
-    opacity: 0.5;
+    /* background-color: #ccdb; */
+    /* opacity: 2; */
     /* background-position-x: 10%;
     background-position-y: 30%; */
 }
@@ -247,7 +239,8 @@ a:visited{
     box-shadow: 0rem 0.15rem 0.6rem #000;
     color: white;
     text-shadow: 0.2rem 0.2rem #444444;
-    /* background-color: beige; */
+    
+
 }
 .price-head-container{
     flex-basis: 100%;
@@ -274,7 +267,8 @@ a:visited{
     box-shadow: 0rem 0.15rem 0.6rem #000;
     color: white;
     text-shadow: 0.2rem 0.2rem #444444;
-    /* background-color:#7f998e; */
+    opacity: 2;
+    background-color:#7f998e81;
 }
 
 .premium{
@@ -288,7 +282,8 @@ a:visited{
     box-shadow: 0rem 0.15rem 0.6rem #000;
     color: white;
     text-shadow: 0.2rem 0.2rem #444444;
-    /* background-color:#7f998e; */
+    opacity: 2;
+    background-color:#7aa08fab;
 }
 
 .exclusive{
@@ -302,7 +297,8 @@ a:visited{
     box-shadow: 0rem 0.15rem 0.6rem #000;
     color: white;
     text-shadow: 0.2rem 0.2rem #444444;
-    /* background-color:#7f998e; */
+    opacity: 2;
+    background-color:#7f998eee;
 }
 
 .price-standard{
@@ -319,6 +315,7 @@ a:visited{
     padding: 0 2rem;
     padding-top: 1rem;
     color: white;
+    box-shadow: 0rem 0.15rem 0.6rem #000;
     /* background-color: rgb(232, 245, 185); */
     text-align: center;
 }
@@ -337,13 +334,13 @@ a:visited{
 .aloha-head{
 
     min-height: 100%;
-    min-width: 70%;
+    min-width: 100%;
     box-shadow: 1rem 0.1rem 0.4rem 0.1rem rgba(190, 131, 64, 0.623);
     font-size: 1.5rem;
     padding: 2rem;
     padding-top: 2rem;
     padding-bottom: 14rem;
-    margin: 1rem;
+    margin: 0rem 2rem 4rem 0rem;
     background: url('logos/aloha.jpg') no-repeat center center;
     background-size: cover;
     box-shadow: 0px 2px 10px white;
@@ -351,13 +348,14 @@ a:visited{
 
 }
 .siberia-head{
-    flex: 1;
+    min-height: 100%;
+    min-width: 100%;
     box-shadow: 1rem 0.1rem 0.4rem 0.1rem rgba(136, 127, 119, 0.719);
     font-size: 1.5rem;
     padding: 2rem;
     padding-top: 2rem;
-    margin: 1rem;
     padding-bottom: 14rem;
+    margin: 0rem 2rem 4rem 0rem;
     text-shadow: 0.1rem 0.1rem #000;
     background: url('logos/alisa-siberia.jpg') no-repeat center center;
 
@@ -365,16 +363,17 @@ a:visited{
 
 .nordic-head{
     min-height: 100%;
-    min-width: 70%;
+    min-width: 100%;
     /* box-shadow: 1rem 0.1rem 0.4rem 1rem rgba(185, 146, 19, 0.479); */
     font-size: 1.5rem;
-    margin: 1rem;
     padding: 2rem;
     padding-top: 2rem;    
     padding-bottom: 14rem;
+    margin: 0rem 2rem 4rem 0rem;
     text-shadow: 0.1rem 0.1rem #000;
     background: url('logos/polar-black-nordic_small.jpg') no-repeat center center;
     background-size: cover;
+    /* opacity: 0.5; */
     
     
 }
@@ -477,7 +476,7 @@ footer{
     min-height: 20vh;
     flex-wrap: wrap;
     align-items: center;
-    background-color:#444444;
+    background-color:#444444bd;
     border: 1px dashed green;
     padding-top: 3rem;
     padding: 0 2rem;
