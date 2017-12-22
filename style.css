@@ -13,13 +13,16 @@ body {
     line-height: 1.6;
     color: #ffffff;
     /* Fallback för äldre browsers */
-    background-color: #7f998e;
-    min-width: 300px;   
+    background-color: #ccdbde;
+    /* MAC */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto; 
 }
+
 
 /* Parallax wrapper */
 main {
-    background: #7f998e url('logos/background_sam.jpg') no-repeat center center;
+    background: #ccdbde url('logos/background_sam.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -28,7 +31,7 @@ h1, h2, h3, h5, h6 {
     line-height: 1.4rem;
     
 }
-/* Default size för Alla heads för sidan */
+/* Default size för Alla h6 heads för sidan */
 h6 {
     font-size: 1.5rem;
 }
@@ -131,13 +134,12 @@ h6 {
     text-shadow: 0.1rem 0.1rem #000;
     max-height: 70%;
 }
+
 .aside-logo-parent{
     width: 50%;
     align-self: flex-start;
     text-align: right;
 }
-
-
 
 .banner-color-parent{
     display: flex;
@@ -155,6 +157,7 @@ nav{
     text-shadow: 0.1rem 0.1rem #000;
 
 }
+
 .nav-section{
     display: flex;
     display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -223,7 +226,6 @@ a:visited{
 }
 
 /* Price section */
-
 .price-parent{
     display: flex;
     display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -241,10 +243,9 @@ a:visited{
     -webkit-box-shadow: 0rem 0.15rem 0.6rem #000;
     color: white;
     text-shadow: 0.1rem 0.1rem #000;
-    
-
 }
-.price-head-container{
+
+.price-head-container {
     flex-basis: 100%;
     min-height: 4rem;
     text-align: center;
@@ -257,12 +258,12 @@ a:visited{
 
 }
 
-.price-list-style{
+.price-list-style {
     list-style-type: none;
 }
 
 
-.standard{
+.standard {
     min-height: 50%;
     min-width: 50%;
     padding-top: 2rem;
@@ -275,7 +276,7 @@ a:visited{
 
 }
 
-.premium{
+.premium {
     min-height: 50%;
     min-width: 50%;
     padding-top: 2rem;
@@ -288,7 +289,7 @@ a:visited{
     background-color:#7aa08fab;
 }
 
-.exclusive{
+.exclusive {
     max-height: 50%;
     min-width: 100%;
     padding-top: 1rem;
