@@ -10,20 +10,20 @@
         <title>Arboreal || Häni Abu Zeid || FEND17 ||</title>
     </head>
     <body>
-        <div class="header-parent">
-            <header class="container-logo">
+        <header class="header-parent">
+            <div class="container-logo">
                 <div class="logo">
                     <a href="index.html"><img src="logos/logga+text.png" alt="Arboreal color logo"></a>
                 </div>
-            </header>
+            </div>
             <div class="container-slogan">
                 <div class="slogan-text"><h5>A workplace that is <strong>alive</strong> <br>create ideas that lives on</h5>
                 </div>
             </div> 
-        </div>
+        </header>
 
         <main>
-            <div class="nav-section">
+            <section class="nav-section">
                 <nav class="nav-start">
                     <a href="#mission"><h4 class="fromCenter">Start</h4></a>
                 </nav>
@@ -35,11 +35,10 @@
                 </nav>
                 <nav class="nav-contact">
                     <a href="#contact"><h4 class="fromCenter">Contact</h4></a>
-                </nav>
-            </div>
+            </section>
 
-            <div class="main-mission-parent">
-                <section class="mission-parent">
+            <section class="main-mission-parent">
+                <div class="mission-parent">
                 <div class="mission-head-container"> 
                     <h5>About</h5>
                 </div>
@@ -48,10 +47,10 @@
                             Arboreal isn't just a delivery service for plants, it's a delivery service for new ideas.<br>
                             Arboreal makes it easy to keep your workplace fresh and oxygenated</p>
                     </div> 
-                </section>
-            </div>
+                </div>
+            </section>
             
-            <article id="pricing" class="price-parent">
+            <section id="pricing" class="price-parent">
                 <div class="price-head-container">
                     <h5>Pricing</h5>
                 </div>
@@ -90,9 +89,9 @@
                                 <h2>199$/mo</h2>
                             </div>
                     </div>
-            </article>
+            </section>
 
-            <article id="themes" class="themes-parent">
+            <section id="themes" class="themes-parent">
                 <div class="themes-head-container">
                     <h5>Themes</h5>
                 </div>
@@ -114,68 +113,44 @@
                             <p>Everything is pine and spruce. Get that Norrlands inland-look in your office. Comes with a Christmas Decoration Extension Pack for the first 100 subscribers (Bears not included).</p>
                         </div>
                 </div>
-                </article>
-                            <!-- <article id="themes" class="themes-parent">
-                                <div class="themes-head-container"><h6>Themes</h6>
-                                </div>
-                                    <div class="aloha-head"><h2>Aloha</h2>
-                                        <ul class="price-list-style">
-                                            <li>This rich theme includes exotic coconuts spilling all over the floor combined with palm trees that hang down and are always in the way of your daily workflow. This theme is very complicated, suitable for complex startups with a unclear monetizing strategy.</li>
-                                        </ul>
-                                    </div>
-                                        <div class="siberia-head"><h2>Siberia</h2>
-                                            <ul class="price-list-style">
-                                                <li>Dead plants everywhere. Plants sprayed with white color to give that cold secluded look.</li>
-                                            </ul>
-                                        </div>
-                                            <div class="nordic-head"><h2>Exotique Nørdic</h2>
-                                                <ul class="price-list-style">
-                                                    <li>Everything is pine and spruce. Get that Norrlands inland-look in your office. Comes with a Christmas Decoration Extension Pack for the first 100 subscribers (Bears not included).</li>
-                                                </ul>
-                                            </div>
-                            </article> -->
-                                <div id="contact"  class="contact-form-parent">
-                                    <div class="contact-header">
-                                        <h5>Contact</h5>
-                                    </div>
-                                <div class="container-form">
-                                    <form action="/action_page.php">
-                                        <label for="fname">First Name</label>
-                                            <input type="text" id="fname" name="firstname" required 
-                                                placeholder="Your name..">   
-                                                <label for="lname">Last Name</label>
-                                                    <input type="text" id="lname" name="lastname" required 
-                                                    placeholder="Your last name..">
-                                                        <label for="email">Email</label>
-                                                            <input type="email" id="email" name="email address" required 
-                                                                placeholder="Your email address">
-                                                                <label for="subject">Subject</label>
-                                                                    <textarea id="subject" name="subject" required 
-                                                                                placeholder="I would like to order the Exclusive...">
-                                                                        </textarea>
-                                                                            <input type="submit" value="Submit">
-                                    </form>
-                                    
-
-                                </div>
-                                    <div class="leftylogo"></div>
-                            </div>
-                </main>
+                </section>
+                
+                <section id="contact"  class="contact-form-parent">
+                    <div class="contact-header">
+                        <h5>Contact</h5>
+                    </div>
+                    <div class="container-form">
+                        <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" required 
+                                    placeholder="Your name..">   
+                            <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" required 
+                                    placeholder="Your last name..">
+                            <label for="email">Email</label>
+                                <input type="email" id="email" name="email address" required 
+                                    placeholder="Your email address">
+                            <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" required 
+                                    placeholder="I would like to order the Exclusive...">
+                                </textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                   <div class="leftylogo">
+                   </div>
+                </section>
+            </main>
                                     
             <footer>
                 <div class="contact-head">
-                        <ul class="adress-list">
-                            <li>Birgerjarlsgatan 12 | Stockholm</li>
-                                    <!-- <li>Stockholm</li> -->
-                                        <li>Tel: 08-56 57 30</li>
-                                            <li>Facebook: arboreal, Twitter: @arboreal</li>
-                                                <li><div class="arbo-icon"><a href="index.html"><img src="logos/outline-icon.png" alt="outline-icon"></a></div></li>
-                        </ul>
+                    <ul class="adress-list">
+                        <li>Birgerjarlsgatan 12 | Stockholm</li>
+                        <li>Tel: 08-56 57 30</li>
+                        <li>Facebook: arboreal, Twitter: @arboreal</li>
+                        <li><div class="arbo-icon"><a href="index.html"><img src="logos/outline-icon.png" alt="outline-icon"></a></div></li>
+                    </ul>
                 </div>
-
-                    <!-- <div class="contact-icons" id="contact-icons">
-                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a>
-                            <a href="https://www.twitter.com/"><i class="fa fa-twitter-square"></i></a></div> -->
             </footer>
     </body>
 </html>
