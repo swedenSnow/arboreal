@@ -16,39 +16,6 @@ Validerade HTML och CSS och fick inga fel.
 "W3C CSS-valideringsresultat för style.css (CSS nivå 3)
 
 Gratulerar! Inga fel har hittats"
----------------------------------------------------------------------------------------------
-FEEDBACK (Mikael Larsson):
-
-Jag skulle gjort intenderingen annorlunda i HTML filen.
-Som den är nu känns den lite svårläst för att följa flödet.
-
-Input type skulle kunna vara email på E-mail input.
-Vet inte om du behöver listor när du bara har 1 list item.
-
-Det finns en bortkommenterad rad som finns under.
-
-CSS:en Känns bra, det är bara lite mellanslag och lite radbrytningar här och där som kunde snyggat upp den.
-Och tagit bort kod som inte används och är bortkommenterad.
-
-Namngiviningen är tydlig tror inte jag såg något jag inte förstod.
-Dock så skulle premium exclusive och standard namnges ännu tydligare för att verkligen följa resten.
-
-Överflödig CSS
-Det känns som det finns klasser som är väldigt lika förutom på ett par punkter.
-Vet inte om det är bättre eller sämre men de skulle kunna delas upp och göra klasser för de som de har gemensamt.
-
-
-Ändringar i Design
-
-Skuggningen på texten uppe till vänster gör att den känns "trasig".
-
-Jag förstår valet av samma bakgrund på pricing och themes, har du testat olika bakgrundsfärger för att tydliggöra vart gränsen går.
-Top-marginalen till themes känns större än pricing.
-
-Vet inte om du behöver target sidan på kontaktformuläret kanske bara skulle lämna den tom.
-
-Facebook och Twitter adressen står längst ner, men länkar inte till sidorna. Ikonerna för Facebook och Twitter länkar bara till själva huvudsidan.
------------------------------------------------------------------------------------------
 
 Jag tog till mig av all feedback och ändrade sidan därefter. Jag tog även bort ikonerna för facebook och twitter för det såg snyggare ut utan.
 
