@@ -1,11 +1,10 @@
-# Arboreal-- School project, learning flexbox for the first time.
+# Arboreal- School project, learning flexbox for the first time.
 
-## Arboreal || Häni Abu Zeid FEND17
+### Arboreal || Häni Abu Zeid FEND17
 
 ### "Document checking completed. No errors or warnings to show."
-### "W3C CSS-valideringsresultat för style.css (CSS nivå 3)
+### "W3C CSS- validation completed. No errors or warnings to show."
 
-Gratulerar! Inga fel har hittats"
 
 Jag tog till mig av all feedback och ändrade sidan därefter. Jag tog även bort ikonerna för facebook och twitter för det såg snyggare ut utan.
 
