@@ -1,4 +1,5 @@
-# Arboreal- School project, learning flexbox for the first time and media queries / Responsive design
+# Arboreal- School project
+### Learning flexbox for the first time and media queries / Responsive design
 
 ### Arboreal || Häni Abu Zeid FEND17
 ----------------------------------------------------------------------
